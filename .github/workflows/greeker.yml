@@ -1,6 +1,7 @@
 name : Greter Actions
 on: [push]
-jobs: 
+jobs:
+  greet:
     runs-on: ubuntu-latest
     steps:
       - name : Print hello
