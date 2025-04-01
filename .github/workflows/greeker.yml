@@ -1,0 +1,7 @@
+name : Greter Actions
+on: [push]
+jobs: 
+    runs-on: ubuntu-latest
+    steps:
+      - name : Print hello
+        run: echo "Hello"
